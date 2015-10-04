@@ -11,6 +11,12 @@ A Vue.js plugin provides a filter and a function to titlecase a string.
 # Requirements
 - [Vue.js](https://github.com/yyx990803/vue) ^`0.12.0`
 
+# Algorithm
+
+The algorithm is based on the gamma rule described as follows:
+
+[Glossary of Grammatical and Rhetorical Terms: title case (capitalization)](http://grammar.about.com/od/tz/g/Title-Case.htm)
+
 # Instllation
 
 ## npm
@@ -71,12 +77,6 @@ Converts a string instance to the titlecase form. Returns an new string.
 
 This is a customized Vue filter used to converts the string representation of
 an object to the titlecase form.
-
-# Algorithm
-
-The algorithm is based on the gamma rule described as follows:
-
-[Glossary of Grammatical and Rhetorical Terms: title case (capitalization)](http://grammar.about.com/od/tz/g/Title-Case.htm)
 
 # Contributing
 - Fork it !
