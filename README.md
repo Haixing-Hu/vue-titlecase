@@ -71,7 +71,7 @@ Output the following:
 
 ## `String.prototype.toTitleCase()`
 
-Converts a string instance to the titlecase form. Returns an new string.
+Converts a string instance to the titlecase form. Returns a new string.
 
 ## `titlecase`
 
