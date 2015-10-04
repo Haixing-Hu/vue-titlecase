@@ -1,0 +1,31 @@
+{
+  "name": "vue-titlecase",
+  "description": "A Vue.js plugin providing the function and the filter to titlecase strings.",
+  "version": "0.1.0",
+  "keywords": [
+    "Vue.js",
+    "titlecase",
+    "plugin",
+    "stirng"
+  ],
+  "authors": [
+    "Haixing Hu"
+  ],
+  "homepage": "https://github.com/Haixing-Hu/vue-titlecase",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Haixing-Hu/vue-titlecase.git"
+  },
+  "main": [
+    "src/vue-titlecase.js"
+  ],
+  "ignore": [
+    "lib",
+    "coverage",
+    "node_modules"
+  ],
+  "dependencies": {
+    "vue": "~0.12.16"
+  }
+}
