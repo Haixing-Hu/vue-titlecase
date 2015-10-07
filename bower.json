@@ -1,7 +1,7 @@
 {
   "name": "vue-titlecase",
   "description": "A Vue.js plugin providing the function and the filter to titlecase strings.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "Vue.js",
     "titlecase",
@@ -26,6 +26,6 @@
     "node_modules"
   ],
   "dependencies": {
-    "vue": "~0.12.16"
+    "vue": "^0.12.16"
   }
 }
