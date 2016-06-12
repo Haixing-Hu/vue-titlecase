@@ -15,9 +15,7 @@
   "bugs": {
     "url": "https://github.com/Haixing-Hu/vue-titlecase/issues"
   },
-  "main": [
-    "src/vue-titlecase.js"
-  ],
+  "main": "dist/vue-titlecase.min.js",
   "configs": {
     "directories": {
       "dist": "dist",
