@@ -87,7 +87,7 @@ var MINOR_WORDS = [
 /**
  * Certain words such as initialisms or acronyms should be left uppercase.
  */
-var ACRONYMS = ['Id', 'Tv', 'Html', 'Xml'];
+var ACRONYMS = ['Id', 'Tv', 'Html', 'Xml', "Url", "Http", "Vpn"];
 
 /**
  * Titlecase the string representation of a value.

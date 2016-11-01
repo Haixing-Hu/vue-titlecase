@@ -29,4 +29,13 @@ describe("titlecase", function() {
     var xxx = undefined;
     assert.equal(titlecase(xxx), "");
   });
+  it("acronyms", function() {
+    assert.equal(titlecase("this is ID"), "This is ID");
+    assert.equal(titlecase("this is TV"), "This is TV");
+    assert.equal(titlecase("this is html"), "This is HTML");
+    assert.equal(titlecase("this is xml"), "This is XML");
+    assert.equal(titlecase("this is url"), "This is URL");
+    assert.equal(titlecase("this is http"), "This is HTTP");
+    assert.equal(titlecase("this is vpn"), "This is VPN");
+  });
 });
